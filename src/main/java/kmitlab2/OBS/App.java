@@ -19,7 +19,7 @@ public class App {
 
         System.out.print("\nEnter your choice: ");
         int choice = sc.nextInt();
-
+        System.out.println("Product.java nd order.java");
         switch (choice) {
 
             case 1:
