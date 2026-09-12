@@ -12,10 +12,6 @@
   <artifactId>OBS-Store</artifactId>
 
   <version>0.0.1-SNAPSHOT</version>
-<<<<<<< HEAD
-  <packaging>jar</packaging>
-=======
->>>>>>> f2550bf92572585a6eae0c9b2a695cc7569e454c
 
   <name>OBS</name>
   <url>http://www.example.com</url>
@@ -53,11 +49,9 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
-      <version>6.1.3</version>
       <scope>test</scope>
     </dependency>
 
-	
   </dependencies>
 
   <build>
@@ -74,11 +68,10 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
         </plugin>
-		
+
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.16.0</version>
-
+          <version>3.13.0</version>
         </plugin>
 
         <plugin>
